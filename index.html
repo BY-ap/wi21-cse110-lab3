@@ -39,8 +39,79 @@
                  ||     ||
     </pre>
     <picture>
-    <img src="mdn-logo-narrow.png" alt="MDN">
+      <source srcset="UCSD.png">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1920px-University_of_California%2C_San_Diego_seal.svg.png" alt="UCSD">
     </picture>
+    <iframe src="https://ucsd.edu/" title="UCSD" width="400" height="300">
+    </iframe>
+    <audio src="someaudio.ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <video controls
+    src="https://www.youtube.com/watch?v=UPFmUzXOPu0" width="600">
+    Sorry, your browser doesn't support embedded videos
+    </video>
+    <svg width="100%" height="100%">
+      <circle id="somecycle" cx="50" cy="50" r="50" />
+    </svg>
+    <canvas id="someCanvas" width="200" height="100"></canvas>
+    <form>
+      <label for="sports-select">Choose a dinosaur:</label>
+      <select id="sports-select">
+        <optgroup label="Sports">
+        <option>Ball games</option>
+        <option>Track and field sports</option>
+        <option>Others</option>
+        </optgroup>
+      </select>
+      <fieldset>
+      <legend>Choose your favorite ball game</legend>
+
+      <input type="radio" id="basketball" name="ballgame">
+      <label for="basketball">basketball</label><br/>
+
+      <input type="radio" id="soccer" name="ballgame">
+      <label for="soccer">soccer</label><br/>
+
+      <input type="radio" id="others" name="ballgame">
+      <label for="others">others</label>
+      </fieldset>
+      <label for="days">Choose your favorate day in a week:</label>
+      <input list="somedays" id="days" name="days" />
+      <datalist id="somedays">
+      <option value="Monday">
+      <option value="Tuesday">
+      <option value="Wendnesday">
+      <option value="Thursday">
+      <option value="Friday">
+      <option value="Saturday">
+      <option value="Sunday">
+      </datalist>
+      <label for="reason">Tell us why:</label>
+
+      <textarea id="reason" name="reason"
+                rows="5" cols="33">
+      </textarea>
+      <details>
+      <summary>Details</summary>
+      Make sure to fill out every blank space
+      </details>
+
+      First name:<input type="text" name="fname" />
+      Last name:<input type="text" name="lname" />
+      Date:<input type="date" name="Date" />
+      Email:<input type="email" name="Email" />
+      Password:<input type="password" name="Password" />
+      Telephone number:<input type="tel" name="Tel" />
+      Current time:<input type="time" name="Time" />
+      Link:<input type="url" name="Link" />
+      <input type="reset" name="Reset" />
+      <input type="submit" name="Submit" />
+      <input type="button" value="I'm done">
+    </form>
+    <template id="template">
+     <div>some template</div>
+    </template>
     <hr />
     <main>
     <header>
