@@ -1,0 +1,81 @@
+.intro {
+  background-color: yellow;
+}
+#someid {
+  background-color: yellow;
+}
+#firstname {
+  background-color: yellow;
+}
+* {
+    background-color: yellow;
+}
+p {
+  background-color: yellow;/*Set text color to yellow*/
+}
+iframe[title="UCSD"] {
+  background-color: yellow;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+body {
+  background-color: lightblue;
+  color: blue;
+}
+p.one {
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 60px;
+  width: 1cm;
+  margin: 10mm;
+  padding: 1 rem;
+  line-height: 2em;
+  text-align: center;
+  text-decoration: overline;
+  position: absolute;
+}
+h2 {
+  position: static;
+}
+p {
+  font-size: 2ex;
+  line-height: 50px;
+}
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.p1 {
+  font-family: 'Lato', sans-serif;
+}
+p.ex1 {
+  display: none;
+  max-width: 150px;
+}
+span.ex1 {
+  min-width: 500px;
+}
+p.ex2 {display: inline;}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-gap: 50px;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+}
+
+
